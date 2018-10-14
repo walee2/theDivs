@@ -29,7 +29,7 @@ h1 {
     color: red;
 }
 
-h3 {
+.f3 {
     font-weight: normal;
 }
 
@@ -40,6 +40,14 @@ h4 {
 
 span {
     color: green
+}
+
+.f2 {
+    font-weight: bold;
+}
+
+.f3 {
+    font-weight: normal;
 }
 
 .rclf {
