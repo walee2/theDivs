@@ -16,7 +16,7 @@ body {
 
 img {
     float: left;
-    width: 100%;
+    width: 97%;
     height: 250px;
     content: url(Untitledy.png);
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ h1 {
     color: red;
 }
 
-.f3 {
+h3 {
     font-weight: normal;
 }
 
@@ -42,30 +42,9 @@ span {
     color: green
 }
 
-.f2 {
-    font-weight: bold;
-}
-
-.f3 {
-    font-weight: normal;
-}
-
-.rclf {
-    width: 60%;
-    margin-left: 18px;
-}
-
-.rclf2 {
-    float: left;
-    overflow: hidden;
-    padding: 5px;
-    width: 33%;
-}
-
 .spn {
     color: green;
     font-weight: bold;
-    margin-left: 15px;
 }
 
 .spright {
@@ -86,7 +65,7 @@ span {
     font-weight: bold;
 }
 
-.rcell,
+.col,
 .thead {
     float: left;
     overflow: hidden;
@@ -94,14 +73,23 @@ span {
     width: 19%;
 }
 
-.rcell:first-of-type,
-.thead:first-of-type {
+.col60 {
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+    width: 59%;
+}
+
+.col40 {
+    float: left;
+    overflow: hidden;
+    padding: 5px;
     width: 37%;
 }
 
-.rcell:last-of-type,
-.thead:last-of-type {
-    text-align: right;
+.col:first-of-type,
+.thead:first-of-type {
+    width: 37%;
 }
 
 .pr {
@@ -113,9 +101,4 @@ span {
 
 .brdr {
     border-top: 1px solid green;
-}
-
-.rclff {
-    width: 60%;
-    margin-left: 39%;
 }
