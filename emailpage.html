@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
+
+
+    <!-- <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> -->
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-default navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">MAIL BOX <small>12 Message</small></a>
+        <div class="btn btn-toolbar">
+            <a class="btn btn-light font-weight-bold fa fa-home" href="#">&nbsp;Home</a>
+            <a class="btn btn-light font-italic disabled" href="#">&nbsp;> Mailbox</a>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-3 sidenav bg-light">
+                <br>
+                <h5 class="text-center  bg-info">Back to inbox</h5>
+
+                <a class="list-group-item font-weight-bold text-dark" href="#">&nbsp; Folders</a>
+
+
+                <ul class="list-group">
+                    <li class="list-group-item d-flex  align-items-left fa fa-envelope">&nbsp; Inbox
+                        <span class="badge badge-primary badge-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex  fa fa-envelope">&nbsp; Send
+                    </li>
+                    <li class="list-group-item d-flex  fab fa-firstdraft">&nbsp; Drafts
+                    </li>
+                    <li class="list-group-item d-flex  fa fa-filter">&nbsp; Junk
+                    </li>
+                    <li class="list-group-item d-flex   far fa-trash-alt">&nbsp; Trash
+                        <span class="badge badge-primary badge-pill ">1</span>
+                    </li>
+                </ul>
+
+                <br>
+
+                <a class="list-group-item font-weight-bold text-dark" href="#">&nbsp; Labels</a>
+                <div class="list-group">
+                    <a class="list-group-item text-dark " href="#"><i class="far fa-circle text-danger"></i>
+                        Applications</a>
+                    <a class="list-group-item text-dark" href="#"><i class="far fa-circle  text-success"></i>
+                        Settings</a>
+                    <a class="list-group-item text-dark " href="#"><i class="far fa-circle text-info"></i>
+                        Social</a>
+                </div>
+
+                <br>
+
+            </div>
+
+            <div class="col-9 border-top border-primary">
+                <h6><small>Compose New Message</small></h6>
+
+                <div class="input-group m-1">
+                    <span class="input-group"></span>
+                    <input class="form-control" type="text" placeholder="To">
+                </div>
+
+
+                <div class="input-group m-1">
+                    <span class="input-group"></span>
+                    <input class="form-control" type="text" placeholder="Subject">
+                </div>
+
+                <div class="input-group">
+
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle fal fa-drafting-compass mt-2" type="button">
+                            Normal text
+                        </button>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+
+
+                    <div class="btn btn-toolbar">
+                        <a class="btn btn-light font-weight-bold" href="#">Bold</a>
+                        <a class="btn btn-light font-italic" href="#">Italic</a>
+                        <a class="btn btn-light" href="#"><u>Underline</u></a>
+                        <a class="btn btn-light text-sm" href="#">Small</a>
+                    </div>
+
+                    <div class="btn btn-toolbar">
+                        <a class="btn btn-light fa fa-quote-left fa-1x" href="#"></a>
+                    </div>
+
+                    <div class="btn btn-toolbar">
+                        <a class="btn btn-light fa fa-list-ul " href="#"></a>
+                        <a class="btn btn-light fa fa-list " href="#"></a>
+                        <a class="btn btn-light fa fa-align-left " href="#"></a>
+                        <a class="btn btn-light fa fa-align-right " href="#"></a>
+                    </div>
+
+                    <div class="btn btn-toolbar">
+                        <a class="btn btn-light fa fa-clock" href="#"></a>
+
+                        <i class="btn btn-light fas fa-angle-double-right"></i>
+
+                        <a class="btn btn-light fa fa-image" href="#"></a>
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+                    <textarea class="form-control" rows="15" id="comment"></textarea>
+                </div>
+
+                <br>
+                <a class="btn btn-light fa fa-paperclip" href="#">Attachmend</a>
+                <br>
+
+                <small>MAX 32.0 MB</small>
+
+
+                <br><br>
+                <div class="row">
+                    <div class="col-9">
+                        <a class="btn btn-light fa fa-times" href="#">&nbsp;Discard</a>
+                    </div>
+                    <div class="col-3 btn align-items-end btn-toolbar ">
+                        <a class="btn  btn-light fas fa-pencil-alt" href="#">&nbsp;Draft</a>
+                        <a class="btn  btn-info fa fa-envelope" href="#">&nbsp;Send</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
